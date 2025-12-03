@@ -1,0 +1,47 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+.contenedor-principal{
+  display: flex;
+  flex-direction: column;
+  background-color: #092e4d;
+  padding: 0px 15px 5px 15px;
+  border-radius: 10px;
+  border-bottom: groove;
+  border-left: groove;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+h1, h3, h2{
+  background-color: rgb(33 150 243 / 26%);
+  padding: 10px;
+  border-radius: 10px;
+  border-bottom: groove;
+  border-left: groove;
+}
