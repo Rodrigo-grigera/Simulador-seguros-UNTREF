@@ -23,6 +23,7 @@ Características principales:
 ✔️ Diseño simple, limpio y fácil de entender
 
 🗂️ Estructura del proyecto:
+```
 src/
  ├─ assets/
  │   └─ react.svg           
@@ -40,7 +41,7 @@ src/
  ├─ main.jsx                
  ├─ index.css              
  └─ styles.css  
-
+```
 🚀 Cómo ejecutar el proyecto localmente
 Sigue estos pasos:
 1️⃣ Clonar el repositorio
