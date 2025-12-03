@@ -1,16 +1,68 @@
-# React + Vite
+Aplicación desarrollada en React utilizando Vite como entorno de desarrollo , que permite cotizar un seguro de manera dinámica.
+El usuario completa un formulario con su edad, tipo de propiedad y valor declarado, y el sistema devuelve tres opciones de cotización: básica, intermedia y premium.
+El proyecto utiliza componentes reutilizables, estilos separados por módulo y validaciones esenciales para asegurar datos correctos.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Características principales:
+✔️ Formulario interactivo para ingresar:
+  - Edad del usuario
+  - Tipo de propiedad (Casa o Departamento)
+  - Precio de la propiedad
 
-Currently, two official plugins are available:
+✔️ Validaciones:
+  - La edad no puede superar los 105 años
+  - No se permiten valores negativos en ningún campo
+  - No se muestra cotización si falta completar algún dato
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✔️ Cálculo sincronizado de:
+  - Plan Básico
+  - Plan Intermedio
+  - Plan Superior
 
-## React Compiler
+✔️ Componentes organizados y estilos separados (CSS por componente)
+✔️ Tipografías importadas desde Google Fonts
+✔️ Diseño simple, limpio y fácil de entender
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🗂️ Estructura del proyecto:
+src/
+ ├─ assets/
+ │   └─ react.svg           
+ │
+ ├─ componentes/
+ │   ├─ formulario/
+ │   │   ├─ Form.jsx
+ │   │   ├─ Form.css
+ │   │
+ │   ├─ opcioneCobertura/
+ │       ├─ OpcionCobertura.jsx
+ │       ├─ OpcionCobertura.css
+ │
+ ├─ App.jsx                 
+ ├─ main.jsx                
+ ├─ index.css              
+ └─ styles.css  
 
-## Expanding the ESLint configuration
+🚀 Cómo ejecutar el proyecto localmente
+Sigue estos pasos:
+1️⃣ Clonar el repositorio
+2️⃣ Entrar en la carpeta del proyecto
+    eje: cd tu-repo
+3️⃣ Instalar dependencias
+    npm install
+4️⃣ Ejecutar la app desde la terminal
+    npm run dev
+  Luego puedes abrirla en:
+    http://localhost:3000
+    
+🧩 Tecnologías utilizadas
+- React
+- JavaScript
+- CSS 
+- Google Fonts
+- Vite (con plantilla React)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+El proyecto está organizado bajo una arquitectura simple y clara:
+- Componentes reutilizables
+- Funciones separadas para cálculos y validaciones
+- Estilos agrupados por componente
+- Nombres de archivos descriptivos
+- Código legible y fácil de mantener
