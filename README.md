@@ -44,6 +44,8 @@ src/
 ```
 🚀 Cómo ejecutar el proyecto localmente
 Sigue estos pasos:
+
+```
 1️⃣ Clonar el repositorio
 2️⃣ Entrar en la carpeta del proyecto
     eje: cd tu-repo
@@ -53,7 +55,7 @@ Sigue estos pasos:
     npm run dev
   Luego puedes abrirla en:
     http://localhost:3000
-    
+``` 
 🧩 Tecnologías utilizadas
 - React
 - JavaScript
